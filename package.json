@@ -1,0 +1,22 @@
+{
+  "name": "project-test-mocha",
+  "version": "1.0.0",
+  "description": "test mocha project",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test",
+    "coverage": "nyc npm run test"
+  },
+  "keywords": [
+    "mocha",
+    "test",
+    "js"
+  ],
+  "author": "Lucas Paulino",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "nyc": "^15.1.0"
+  }
+}
